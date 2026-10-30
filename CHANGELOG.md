@@ -5,6 +5,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Write the `version` metadata entry, as done in SOPS. Its value can be overridden at build time with `ROPS_SOPS_VERSION`. ([#314](https://github.com/gibbz00/rops/issues/314))
+
+### Fixed
+
+- Quote the YAML `lastmodified` metadata value, as done in SOPS. ([#313](https://github.com/gibbz00/rops/issues/313))
+
 ## [0.1.7] - 2026-02-14
 
 ### Fixed
