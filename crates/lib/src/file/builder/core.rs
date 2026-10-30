@@ -74,6 +74,7 @@ impl<F: FileFormat> RopsFileBuilder<F> {
             mac,
             partial_encryption,
             mac_only_encrypted,
+            version: Some(SopsVersion::default()),
         }
         .encrypt(&data_key);
 
